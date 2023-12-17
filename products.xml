@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+  <producto>
+    <id>1</id>
+    <tipo>ropa</tipo>
+    <nombre>Camiseta blanca</nombre>
+    <descripcion>Camiseta blanca de algodon. La camiseta blanca de algodon de manga corta es una prenda clasica y versatil que no puede faltar en tu armario. Esta confeccionada con un tejido suave y transpirable de algodon de alta calidad, lo que la hace comoda de llevar en cualquier epoca del año. La camiseta tiene un corte recto y holgado que se adapta a todo tipo de cuerpo, y cuenta con un cuello redondo clasico y mangas cortas. 
+    Ademas, el color blanco puro de la camiseta es perfecto para combinar, y puedes usarla tanto para un look casual como para uno mas elegante.</descripcion>
+    <precio>5,99€</precio>
+    <imagen>https://www.kiabi.es/images/camiseta-basica-lisa-blanco-nino-3-12-anos-vx847_6_frb1.jpg</imagen>
+  </producto>
+  <producto>
+    <id>2</id>
+    <tipo>ropa</tipo>
+    <nombre>Pantalon vaquero</nombre>
+    <descripcion>Pantalon vaquero de corte recto. Este pantalon vaquero esta confeccionado en denim resistente y de alta calidad, lo que lo hace duradero y comodo de usar. 
+    Con un corte clasico y ajuste regular, este pantalon es una prenda versatil que puede combinarse con diferentes estilos y outfits. Los detalles en los bolsillos traseros y los botones de metal le dan un toque moderno y elegante al pantalon. Ademas, esta disponible en diferentes tallas y colores para adaptarse a las preferencias de cada persona. Ideal para usar en el dia a dia o para ocasiones mas informales, este pantalon es una excelente adicion a cualquier guardarropa.</descripcion>
+    <precio>29,99€</precio>
+    <imagen>https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/03/21/16478557036231.png</imagen>
+  </producto>
+  <producto>
+    <id>3</id>
+    <tipo>zapatos</tipo>
+    <nombre>Zapatillas deportivas</nombre>
+    <descripcion>Zapatillas deportivas para correr. Las zapatillas deportivas para correr son el calzado perfecto para los amantes del running. Este modelo en particular esta diseñado con una suela de goma resistente que brinda una excelente traccion en cualquier tipo de terreno. Ademas, su tecnologia de amortiguacion proporciona una gran comodidad y reduce el impacto en las articulaciones al correr.
+    La parte superior de las zapatillas esta fabricada con malla transpirable para permitir la circulacion del aire y evitar la acumulacion de sudor en los pies. Ademas, cuenta con una puntera reforzada para mayor durabilidad y una lengüeta acolchada que evita que se produzcan rozaduras.
+    Estas zapatillas tambien vienen equipadas con una plantilla removible que se adapta a la forma del pie para proporcionar una mayor comodidad y soporte.</descripcion>
+    <precio>39,99€</precio>
+    <imagen>https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/743927_02_1.jpg</imagen>
+  </producto>
+  <producto>
+    <id>4</id>
+    <tipo>ropa</tipo>
+    <nombre>Camiseta negra</nombre>
+    <descripcion>Camiseta negra de algodon, Esta camiseta negra de algodon es una prenda basica que no puede faltar en tu armario. Esta confeccionada con algodon de alta calidad, lo que la hace muy suave y comoda de llevar. El tejido es transpirable y resistente, lo que la convierte en una camiseta ideal para cualquier actividad diaria.
+    El corte de la camiseta es ajustado pero no demasiado ceñido, lo que la hace perfecta para combinar. Tiene un cuello redondo y manga corta, lo que la hace muy versatil para utilizar en cualquier epoca del año.
+    La camiseta negra es un basico que nunca pasa de moda y puedes utilizarla en cualquier ocasion. Ademas, su color neutro te permite combinarla con cualquier prenda de tu armario y crear un sinfin de looks diferentes.</descripcion>
+    <precio>5,99€</precio>
+    <imagen>https://marinaracewear.com/storage/media/attributes/3/8/0/3/2/38032/conversions/CAMISETA-ORG%C3%80NICA-PERSONALIZABLE-MARINA-RACEWEAR-FRONTAL-web-category.jpg</imagen>
+  </producto>
+  <producto>
+    <id>5</id>
+    <tipo>ropa</tipo>
+    <nombre>Pantalon largo</nombre>
+    <descripcion>Pantalon largo de corte recto. Este pantalon negro de corte recto es una prenda esencial en cualquier guardarropa. Fabricado con materiales de alta calidad, el pantalon es resistente y duradero, ademas de comodo de llevar gracias a su corte recto y ajuste regular. Ideal para cualquier ocasion.
+    Este pantalon sera una excelente adicion a tu coleccion de ropa.</descripcion>
+    <precio>29.99</precio>
+    <imagen>https://theplatform.es/wp-content/uploads/2022/04/serendipity-theplatform-pantbambula-1.jpg</imagen>
+  </producto>
+  <producto>
+    <id>6</id>
+    <tipo>zapatos</tipo>
+    <nombre>Zapatillas negras</nombre>
+    <descripcion>Zapatillas negras altas. Estas zapatillas altas negras son el complemento perfecto para cualquier outfit casual. Fabricadas con materiales de alta calidad, estas zapatillas son comodas y duraderas, ademas de tener un diseño elegante y moderno. El color negro las hace faciles de combinar con cualquier prenda, y el diseño de corte alto proporciona un ajuste seguro y comodo.
+    Perfectas para el dia a dia, estas zapatillas son una excelente opcion para aquellos que buscan estilo y comodidad.</descripcion>
+    <precio>39.99</precio>
+    <imagen>https://http2.mlstatic.com/D_NQ_NP_981530-MLM54157972670_032023-W.jpgg</imagen>
+  </producto>
+  <producto>
+    <id>7</id>
+    <tipo>bisuteria</tipo>
+    <nombre>Collar largo</nombre>
+    <descripcion>Collar largo dorado. Este collar largo dorado es el accesorio perfecto para añadir un toque de elegancia a cualquier outfit.
+    Fabricado con materiales de alta calidad, el collar es duradero y resistente al desgaste. El color dorado le da un toque de sofisticacion, mientras que el diseño de collar largo lo hace ideal para usar con ropa de cuello alto o escote profundo.</descripcion>
+    <precio>9.99</precio>
+    <imagen>https://m.media-amazon.com/images/I/51+Z5kpfYtL._AC_SY450_.jpg</imagen>
+  </producto>
+  <producto>
+    <id>8</id>
+    <tipo>bolso</tipo>
+    <nombre>Bolso dorado</nombre>
+    <descripcion>Bolso fiesta dorado. Este elegante bolso de fiesta en tono dorado es el accesorio perfecto para complementar tu outfit en cualquier evento formal.
+    Confeccionado con materiales de alta calidad, este bolso tiene un diseño compacto pero funcional, ideal para llevar lo esencial contigo sin sacrificar estilo. La cadena dorada le da un toque de elegancia y sofisticacion, mientras que el cierre de broche garantiza la seguridad de tus pertenencias.</descripcion>
+    <precio>13.99</precio>
+    <imagen>https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81CBybyfuGL._AC_UY395_.jpg</imagen>
+  </producto>
+  <producto>
+    <id>9</id>
+    <tipo>bolso</tipo>
+    <nombre>Bolso azul</nombre>
+    <descripcion>Bolso fiesta azul.<br/>
+    Este bolso de fiesta azul es un accesorio perfecto para cualquier evento elegante. 
+    Esta hecho de terciopelo suave y cuenta con un cierre plateado brillante que le da un toque sofisticado. 
+    El bolso es lo suficientemente grande para guardar tus articulos esenciales, como el telefono movil, el dinero y las llaves, pero lo suficientemente pequeño como para no ser voluminoso. 
+    Ademas, viene con una correa de cadena dorada que te permite llevarlo en el hombro o en la mano. 
+    Este bolso es el complemento ideal para cualquier outfit de fiesta o noche elegante.</descripcion>
+    <precio>13.99</precio>
+    <imagen>https://www.elianor.es/wp-content/uploads/bolso-azul-klein-600x600.jpg</imagen>
+  </producto>
+  <producto>
+    <id>10</id>
+    <tipo>bolso</tipo>
+    <nombre>Bolso blanco</nombre>
+    <descripcion>Bolso fiesta blanco. Este elegante bolso de fiesta blanco es perfecto para añadir un toque de sofisticacion a tu look de noche.
+    Confeccionado en un material de alta calidad, este bolso cuenta con un diseño minimalista y un acabado brillante que lo hace resplandecer bajo la luz de las luces de la noche. El tamaño del bolso lo hace perfecto para guardar tus pertenencias.
+    Ademas, la correa dorada y desmontable te permite llevarlo en el hombro o como un clutch. Ideal para bodas, fiestas de graduacion y otros eventos elegantes, este bolso es una adicion imprescindible a tu coleccion de accesorios.</descripcion>
+    <precio>13.99</precio>
+    <imagen>https://kalimba.es/wp-content/uploads/2022/03/2110-4-SILVER-3-2-480x600.jpg</imagen>
+  </producto>
+  <producto>
+    <id>11</id>
+    <tipo>bolso</tipo>
+    <nombre>Bolso plateado</nombre>
+    <descripcion>Bolso fiesta plateado. Este bolso de fiesta plateado es la eleccion perfecta para completar tu look de noche.
+    Confeccionado en un elegante material brillante, este bolso presenta un diseño rectangular con cierre de cremallera y detalles de cadena en los bordes. Cuenta con un bolsillo con cremallera para guardar tus objetos de valor. El tamaño compacto del bolso lo hace ideal para llevar lo esencial contigo sin ocupar demasiado espacio.
+    La correa de cadena desmontable permite llevarlo en el hombro o en la mano segun tus preferencias.</descripcion>
+    <precio>13.99</precio>
+    <imagen>https://www.pacomartinez.com/media/catalog/product/cache/da73468bff3c80b4faa4b60d5670661d/3/0/30032304_65_pt02.jpg</imagen>
+  </producto>
+  <producto>
+    <id>12</id>
+    <tipo>bolso</tipo>
+    <nombre>Bolso morado</nombre>
+    <descripcion>Bolso fiesta morado. Este bolso morado es perfecto para darle un toque de color a cualquier outfit.
+    Confeccionado en piel sintetica de alta calidad, cuenta con un acabado suave. Su diseño elegante y sofisticado lo hace ideal para eventos formales o para complementar un look mas casual.
+    Ademas, la correa ajustable te permite llevarlo comodamente como bolso de hombro o como bolso de mano. Con su color vibrante y detalles dorados, este bolso morado es una excelente opcion para añadir un toque de estilo a cualquier conjunto.</descripcion>
+    <precio>13.99</precio>
+    <imagen>https://www.elianor.es/wp-content/uploads/bolso-morado.jpg</imagen>
+  </producto>
+  <producto>
+    <id>13</id>
+    <tipo>bolso</tipo>
+    <nombre>Bolso verde</nombre>
+    <descripcion>Bolso fiesta verde. Este bolso de fiesta verde es perfecto para agregar un toque de color a cualquier conjunto elegante.
+    Confeccionado con materiales de alta calidad, este bolso es duradero y resistente al desgaste. Tiene un diseño elegante y moderno con un cierre de solapa y una correa de cadena dorada que se puede ajustar para llevarlo en el hombro o cruzado. El interior del bolso esta forrado y cuenta con un compartimento principal lo suficientemente grande para guardar todos tus articulos necesarios.
+    Este bolso de fiesta verde es la eleccion perfecta para complementar tu look.</descripcion>
+    <precio>13.99</precio>
+    <imagen>https://tocadosyabalorios.com/wp-content/uploads/2020/06/BOLSO-ANCORA-verde-jungla.jpg</imagen>
+  </producto>
+  <producto>
+    <id>14</id>
+    <tipo>bolso</tipo>
+    <nombre>Bolso marron</nombre>
+    <descripcion>Bolso casual marron. Este elegante bolso marron es perfecto para completar cualquier look con un toque sofisticado y clasico.
+    Confeccionado con cuero de alta calidad, es resistente y duradero, ademas de contar con un diseño que no pasa de moda.
+    El bolso cuenta con un espacioso compartimento principal y varios bolsillos interiores y exteriores para mantener tus pertenencias organizadas y seguras. La correa ajustable te permite llevarlo al hombro o cruzado, segun tus preferencias y necesidades</descripcion>
+    <precio>13.99</precio>
+    <imagen>https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71Q35TmC4GS._AC_SY355_.jpg</imagen>
+  </producto>
+  <producto>
+    <id>15</id>
+    <tipo>bolso</tipo>
+    <nombre>Bolso blanco</nombre>
+    <descripcion>Bolso casual blanco. Este bolso casual blanco es ideal para el dia a dia, ya que es comodo y practico sin perder estilo.
+    Confeccionado en tela resistente, cuenta con un diseño sencillo y versatil que se adapta a diferentes outfits y situaciones. El bolso cuenta con un espacioso compartimento principal con cierre de cremallera y varios bolsillos interiores y exteriores para guardar tus objetos personales.
+    La correa ajustable te permite llevarlo comodamente al hombro o cruzado, segun tus preferencias y necesidades. Ademas, su color blanco le da un toque fresco y veraniego a cualquier look.</descripcion>
+    <precio>13.99</precio>
+    <imagen>https://www.loogo.es/93261-superlarge_default/95701-don-algodon-0mi2959.jpg</imagen>
+  </producto>
+  <producto>
+    <id>16</id>
+    <tipo>ropa</tipo>
+    <nombre>Vestido flores</nombre>
+    <descripcion>Vestido casual de flores. Este hermoso vestido casual de flores es una opcion perfecta para aquellos dias de verano en los que quieres lucir comoda y fresca sin sacrificar el estilo.
+    Confeccionado en un tejido ligero y suave, este vestido cuenta con un estampado floral vibrante y alegre que lo hace perfecto para cualquier ocasion informal. Su diseño holgado y fluido permite una total libertad de movimiento y lo hace ideal para llevar en los dias mas calurosos del año.</descripcion>
+    <precio>13.99</precio>
+    <imagen>https://img.ltwebstatic.com/images3_pi/2022/06/13/1655116878a47c5e03662ffd0b8a9aa5b88e85e8ef.jpg</imagen>
+  </producto>
+  <producto>
+    <id>17</id>
+    <tipo>ropa</tipo>
+    <nombre>Vestido rosa</nombre>
+    <descripcion>Vestido casual rosa. Si estas buscando un vestido comodo y elegante para usar en una ocasion casual, este vestido rosa es una excelente opcion.
+    Confeccionado en un tejido suave y ligero, este vestido cuenta con un corte recto y sencillo que se adapta a todo tipo de cuerpo.
+    Este vestido te hara lucir elegante y a la moda.</descripcion>
+    <precio>13.99</precio>
+    <imagen>https://i.pinimg.com/236x/03/81/bf/0381bf59957239bb120e1cabbcc78c7e.jpg</imagen>
+  </producto>
+  <producto>
+    <id>18</id>
+    <tipo>ropa</tipo>
+    <nombre>Vestido lunares</nombre>
+    <descripcion>Vestido casual de lunares. Este vestido casual de flores es una opcion perfecta para aquellos dias de verano en los que quieres lucir comoda y fresca sin sacrificar el estilo.
+    Confeccionado en un tejido ligero y suave, este vestido cuenta con un estampado floral vibrante y alegre que lo hace perfecto para cualquier ocasion informal. Su diseño holgado y fluido permite una total libertad de movimiento y lo hace ideal para llevar en los dias mas calurosos del año.</descripcion>
+    <precio>13.99</precio>
+    <imagen>https://img.ltwebstatic.com/images3_pi/2020/08/27/159849833765ce0fb0bfce142e74d3407531155b1c_thumbnail_405x552.webp</imagen>
+  </producto>
+  <producto>
+    <id>19</id>
+    <tipo>ropa</tipo>
+    <nombre>Vestido azul</nombre>
+    <descripcion>Vestido casual azul. Este vestido casual azul es una prenda versatil que no puede faltar en tu guardarropa.
+    Confeccionado en un suave y comodo tejido de algodon, es perfecto para llevar en cualquier epoca del año. Su diseño con mangas cortas, cuello redondo y corte a la altura de la rodilla lo hacen ideal para un look casual y relajado.</descripcion>
+    <precio>13.99</precio>
+    <imagen>https://m.media-amazon.com/images/I/616ZcklDvQL._AC_SL1500_.jpg</imagen>
+  </producto>
+  <producto>
+  <id>20</id>
+    <tipo>zapatos</tipo>
+    <nombre>Zapatos de cuero negro</nombre>
+    <descripcion>Zapatos de cuero elegantes en color negro. Estos zapatos de cuero elegantes son la eleccion perfecta para cualquier evento formal.
+    Confeccionados con materiales de alta calidad, estos zapatos aseguran comodidad y durabilidad. El color negro clasico y el diseño sencillo los hacen faciles de combinar con cualquier atuendo.
+    Con una suela resistente y un tacon comodo, estos zapatos proporcionan estabilidad y elegancia a la vez. Ademas, su estilo atemporal garantiza que siempre estaran de moda.</descripcion>
+    <precio>49.99</precio>
+    <imagen>https://http2.mlstatic.com/D_NQ_NP_724785-CBT52362429883_112022-W.jpg</imagen>
+  </producto>
+  <producto>
+    <id>21</id>
+    <tipo>zapatos</tipo>
+    <nombre>Zapatillas deportivas blancas</nombre>
+    <descripcion>Zapatillas deportivas para correr en color blanco. Estas zapatillas deportivas blancas son ideales para cualquier persona que busque comodidad y estilo en sus zapatos deportivos.
+    Confeccionadas con materiales de alta calidad, estas zapatillas aseguran la transpirabilidad y la durabilidad.
+    La suela resistente y flexible proporciona una excelente traccion y amortiguacion, lo que las hace ideales para cualquier tipo de actividad fisica. Ademas, el diseño elegante y minimalista de estas zapatillas las hace perfectas para combinar con cualquier ropa casual.
+    Con estas zapatillas deportivas, puedes estar seguro de que siempre luciras y te sentiras bien mientras te mantienes activo.</descripcion>
+    <precio>69.99</precio>
+    <imagen>https://www.ortohouse.es/wp-content/uploads/2022/09/zapatillas-deportivas-blancas-alma-0000442.jpeg</imagen>
+  </producto>
+  <producto>
+    <id>22</id>
+    <tipo>zapatos</tipo>
+    <nombre>Botas de invierno marrones</nombre>
+    <descripcion>Botas de invierno en color marron. Estas botas de invierno marrones son perfectas para mantener tus pies calientes y comodos durante los frios dias de invierno. Estan fabricadas con materiales resistentes al frio. La suela antideslizante proporciona una traccion adicional en superficies resbaladizas, mientras que la plantilla acolchada brinda un soporte adicional y un ajuste comodo. 
+    Las botas tienen un diseño casual y versatil que se adapta a cualquier atuendo de invierno. Con estas botas de invierno marrones, podras disfrutar del invierno con estilo y comodidad.</descripcion>
+    <precio>89.99</precio>
+    <imagen>https://www.fantasiakids.es/shoe_images/huge/1406516615929992.jpg</imagen>
+  </producto>
+  <producto>
+    <id>23</id>
+    <tipo>zapatos</tipo>
+    <nombre>Sandalias</nombre>
+    <descripcion>Sandalias de playa para mujer. Estas sandalias de playa para mujer tienen un estilo elegante y comodo a la vez, perfectas para disfrutar de la playa o la piscina.
+    Las caracteristicas incluyen una suela de goma duradera y antideslizante, correas suaves y comodas que se ajustan al pie, y una plantilla acolchada para mayor comodidad.
+    Ademas, su diseño con detalles en dorado le da un toque elegante y sofisticado a las sandalias.</descripcion>
+    <precio>19.99</precio>
+    <imagen>https://cdn.lunacalzados.es/36816-large_default/chanclas-sandalias-playa-grendha-49979.jpg</imagen>
+  </producto>
+  <producto>
+    <id>24</id>
+    <tipo>zapatos</tipo>
+    <nombre>Botas militares</nombre>
+    <descripcion>Botas militares negras. Estas botas militares negras tienen un estilo muy llamativo gracias a su plataforma y cordones, ideales para darle un toque original a tus looks.
+    Ademas, al ser de color negro, combinan con una gran variedad de colores y estilos.</descripcion>
+    <precio>59.99</precio>
+    <imagen>https://peralimonerashop.com/11660-large_default/botas-militares-cordones-plataforma-pera-limonera.jpg</imagen>
+  </producto>
+  <producto>
+      <id>25</id>
+      <tipo>zapatos</tipo>
+      <nombre>Botas de montaña</nombre>
+      <descripcion>Botas de montaña impermeables para mujer. Se trata de unas botas de montaña para mujer confeccionadas con materiales de alta calidad y resistencia para ofrecerte una gran durabilidad y comodidad.
+      Cuentan con una membrana impermeable que las hace resistentes al agua y la humedad, lo que las convierte en el calzado ideal para caminar sobre terrenos mojados o en condiciones de lluvia.
+      Ademas, las botas tienen una suela antideslizante que proporciona una gran estabilidad en terrenos irregulares y una buena traccion en todo tipo de superficies.
+      Su diseño en color negro las hace faciles de combinar con cualquier outfit de montaña y su ajuste perfecto asegura que tus pies esten comodos y protegidos durante toda la jornada.</descripcion>
+      <precio>89.99</precio>
+      <imagen>https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/458808_02_1.jpg</imagen>
+  </producto>
+  <producto>
+    <id>26</id>
+    <tipo>bisuteria</tipo>
+    <nombre>Conjunto de pendientes y collar pedreria</nombre>
+    <descripcion>Conjunto de bisuteria dorado con piedras de colores. Este conjunto de pendientes y collar es una opcion elegante y sofisticada para complementar cualquier outfit.
+    El diseño del collar consiste en una cadena fina y delicada con un colgante central que combina piedras brillantes con un elegante diseño en forma de hoja. Los pendientes tienen un diseño a juego, con piedras brillantes y un diseño en forma de hoja que cuelga elegantemente de la oreja.
+    Ambas piezas estan fabricadas en materiales de alta calidad para garantizar su durabilidad y resistencia a la oxidacion.</descripcion>
+    <precio>14.99</precio>
+    <imagen>https://www.joyeriavila.es/images/servicios/112CJ001.jpg</imagen>
+  </producto>
+  <producto>
+    <id>27</id>
+    <tipo>bisuteria</tipo>
+    <nombre>Pulsera de plata</nombre>
+    <descripcion>Pulsera de bisuteria plateada con diseño de cadena. Esta pulsera de bisuteria plateada tiene un diseño moderno y versatil que la hace ideal para cualquier ocasion.
+    La pulsera esta formada por una cadena plateada brillante con eslabones grandes y un cierre de mosqueton que permite ajustarla a diferentes tamaños de muñeca. El diseño de la cadena es elegante y sencillo, lo que la hace facil de combinar con cualquier outfit.
+    La pulsera cuenta con un acabado plateado resistente que garantiza su durabilidad y resistencia al desgaste, lo que la convierte en una excelente opcion para cualquier amante de la moda.</descripcion>
+    <precio>7.99</precio>
+    <imagen>https://s3.amazonaws.com/imagenes-sellers-mercado-ripley/2021/08/29010726/pu-148-2.jpg</imagen>
+  </producto>
+  <producto>
+    <id>28</id>
+    <tipo>bisuteria</tipo>
+    <nombre>Collar de perlas</nombre>
+    <descripcion>Collar de bisuteria con perlas blancas. El collar de bisuteria con perlas blancas es una joya elegante y sofisticada que se adapta perfectamente a cualquier ocasion.
+    Esta hecho con perlas cultivadas de alta calidad y tiene un diseño clasico y atemporal. El collar tiene una cadena dorada y una serie de perlas blancas que se colocan en el centro del collar.
+    El contraste entre la cadena dorada y las perlas blancas crea un efecto visual impresionante que no pasa desapercibido. Es un accesorio perfecto para combinar con cualquier atuendo y añadir un toque de elegancia y sofisticacion.</descripcion>
+    <precio>12.99</precio>
+    <imagen>https://cdn20.pamono.com/p/g/9/8/981472_qjzw47thzn/collar-frances-de-perlas-cultivadas-doradas-a-os-50-imagen-1.jpg</imagen>
+  </producto>
+  <producto>
+    <id>29</id>
+    <tipo>bisuteria</tipo>
+    <nombre>Pendientes dorados</nombre>
+    <descripcion>Pendientes de bisuteria dorados con forma de hojas. Estos elegantes pendientes de bisuteria dorados con forma de hojas son una pieza imprescindible para cualquier amante de la moda y la elegancia.
+    Los pendientes estan hechos con materiales de alta calidad que garantizan su durabilidad y belleza.
+    Su diseño en forma de hoja es unico y muy atractivo, lo que los convierte en un accesorio versatil que puedes combinar con cualquier outfit.</descripcion>
+    <precio>8.99</precio>
+    <imagen>https://www.eljardindeldeseo.es/33331-thickbox_default/pendientes-largos-dorados-con-forma-de-hoja.jpg</imagen>
+  </producto>
+  <producto>
+    <id>30</id>
+    <tipo>bisuteria</tipo>
+    <nombre>Collar etnico</nombre>
+    <descripcion>Collar de bisuteria con colgante etnico y cadena larga. Este collar de bisuteria cuenta con un colgante etnico y una cadena larga que lo hace perfecto para combinar con una gran variedad de atuendos.
+    El colgante tiene un diseño intrincado y detallado, que le da un toque artesanal y unico. Esta compuesto por diferentes materiales, como cuentas de colores y piezas metalicas, que le dan un aspecto exotico y original.
+    La cadena larga esta hecha de un metal resistente y duradero, y tiene un acabado envejecido que complementa el estilo etnico del collar. Es una pieza ideal para darle un toque bohemio a tu look.</descripcion>
+    <precio>10.99</precio>
+    <imagen>https://assets.ullapopken.de/images/products/74712790_ecom_g_01.jpg</imagen>
+  </producto>
+  <producto>
+    <id>31</id>
+    <tipo>bisuteria</tipo>
+    <nombre>Conjunto de pulseras</nombre>
+    <descripcion>Conjunto de pulseras de bisuteria en tonos plateados. Este conjunto de pulseras de bisuteria en tonos plateados es el complemento perfecto para cualquier look elegante y sofisticado.
+    Esta compuesto por tres pulseras diferentes, cada una con un diseño unico. La primera pulsera es una cadena de eslabones plateados con pequeños detalles brillantes intercalados. La segunda pulsera es una trenza de hilo plateado con una borla de cadena en el centro. La tercera pulsera tiene cuentas de diferentes tamaños y formas, incluyendo algunas con incrustaciones de pedreria brillante.
+    Todas las pulseras estan hechas de materiales de alta calidad y tienen un cierre de langosta facil de usar. Juntas, estas pulseras añadiran un toque de elegancia y brillo a cualquier atuendo.</descripcion>
+    <precio>15.99</precio>
+    <imagen>https://img.joomcdn.net/5d778cbed05df8a38580f95cc43c64c85c144cab_original.jpeg</imagen>
+  </producto>
+  <producto>
+    <id>32</id>
+    <tipo>bisuteria</tipo>
+    <nombre>Pendientes de aro</nombre>
+    <descripcion>Pendientes de bisuteria dorados con diseño de aro y detalle de pedreria. Estos pendientes de bisuteria dorados son una opcion elegante y sofisticada para cualquier ocasion.
+    Con un diseño de aro clasico, estos pendientes cuentan con un detalle de pedreria en tonos rosados y una gota de perla colgando del centro, lo que los convierte en una pieza unica y llamativa.
+    Los pendientes estan fabricados con materiales de alta calidad para garantizar su durabilidad y resistencia, y su cierre de presion asegura un ajuste comodo y seguro. Estos pendientes son perfectos para agregar un toque de glamour a cualquier atuendo, ya sea para una ocasion especial o para el uso diario.</descripcion>
+    <precio>9.99</precio>
+    <imagen>https://www.eljardindeldeseo.es/58594-thickbox_default/pendientes-de-aros-bonitos-en-dorado-con-piedra-rosa-y-gota-de-perla.jpg</imagen>
+  </producto>
+</productos>

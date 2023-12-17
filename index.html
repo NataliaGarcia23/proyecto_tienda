@@ -1,0 +1,371 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StyleShop</title>
+  <script src="apariencia.js"></script>
+  <link rel="stylesheet" media="all" href="apariencia.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollbar/0.2.11/jquery.scrollbar.min.css" integrity="sha512-lNOyQ2+C8Rv5n66GQhZJojzXkwWYc1OzVEipPLjEDtnJXXl8/iEdOdlhegH0zbJtZjKk8zSKp/s4vJioIS0K1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollbar/0.2.11/jquery.scrollbar.min.js" integrity="sha512-0cU9YKUzpT6np/2Q/VNU/6KRYd6JfNwCwiIzZp6T9UoYmsUexTDBO2QyavLJjKs08sJhOVLGX0VFrZIoOof9ug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <div class="foto" id="logo">
+    <img src="imagenes/logo_Ropa.jpg">
+  </div>
+  <ul class="tab-bar">
+    <li id="inicio" data-num="1" class="tab wave dark" apariencia="font-size: 18px; font-weight: bold;">INICIO</li>
+    <li id="productos" data-num="2" class="tab wave dark" apariencia="font-size: 18px; font-weight: bold;">PRODUCTOS</li>
+    <li id="ropa" data-num="3" class="tab wave dark" apariencia="font-size: 18px; font-weight: bold;">ROPA</li>
+    <li id="bolsos" data-num="4" class="tab wave dark" apariencia="font-size: 18px; font-weight: bold;">BOLSOS</li>
+    <li id="zapatos" data-num="5" class="tab wave dark" apariencia="font-size: 18px; font-weight: bold;">ZAPATOS</li>
+    <li id="bisuteria" data-num="6" class="tab wave dark" apariencia="font-size: 18px; font-weight: bold;">BISUTERIA</li>
+    
+    <form id="buscador">
+      <input type="text" placeholder="Buscar artículo" id="busqueda">
+      <button type="submit" id="buscar">Buscar</button>
+    </form>
+
+    <div id="resultados"></div>
+    <div id="resultados"></div>
+    <div class="indicator"></div>
+  </ul>
+  <div class="contenedor">
+    <div id="pantInicio" class="pantalla" style="text-align: center; width: 100%;">
+      
+      <div style="display: flex;">
+        <div style="flex-grow: 2; text-align: justify;  width: 100%; padding-left: 60px; padding-top: 0px;">
+          <h2 style="color: rgb(95, 9, 95);font-size: 40px; font-family: 'Times New Roman', Times, serif;">Sobre nosotros</h2>
+          <p style="font-size: 20px; font-family: 'Times New Roman', Times, serif;">Bienvenidos a StyleShop, una tienda de ropa con estilo y personalidad única. En nuestra tienda podrás encontrar todo lo que necesitas para vestir con elegancia y comodidad. Nos enorgullece ofrecer una amplia variedad de ropa y accesorios para mujeres de todas las edades y gustos.
+
+            En StyleShop, creemos que la moda es una forma de expresión personal. Por eso, nuestra selección de prendas está pensada para adaptarse a diferentes estilos y personalidades. Desde la ropa casual para el día a día, hasta la ropa más elegante para ocasiones especiales, en nuestra tienda encontrarás todo lo que necesitas para lucir espectacular en cualquier momento.</p>
+        </div>
+        <div style="padding-left: 70px; padding-top: 40px;">
+          <img src="imagenes/fachada_tienda.jpg" alt="Imagen a la derecha" style="width: 375px; height: 275px; padding-right: 60px;">
+        </div>
+      </div>
+
+      <div style="display: flex; padding-bottom: 20px;">
+        <div style="flex-grow: 2; padding-right: 70px; padding-left: 60px; padding-top: 30px;">
+          <img src="imagenes/interior_tienda.jpg" alt="Imagen a la derecha" style="width: 375px; height: 275px;">
+        </div>
+        <div style="text-align: justify; width: 100%; padding-left: 10px; padding-right: 80px; padding-top: 50px;">
+          <p style="font-size: 20px; font-family: 'Times New Roman', Times, serif;">Además, en StyleShop nos esforzamos por ofrecer la mejor calidad en cada una de nuestras prendas. Trabajamos con marcas reconocidas y de calidad para asegurarnos de que cada prenda sea resistente y duradera. Nos preocupamos por cada detalle, desde la selección de tejidos hasta la confección de cada prenda, para asegurarnos de que nuestros clientes estén completamente satisfechos con su compra.
+            
+            En nuestra tienda online, podrás ver desde la comodidad de tu hogar los productos de nuestra tienda. Si tienes alguna duda o necesitas ayuda en tu proceso de compra, nuestro equipo de atención al cliente estará siempre dispuesto a ayudarte.
+            
+            Te invitamos a explorar nuestra tienda y descubrir todo lo que tenemos para ofrecer. En StyShop, estamos seguros de que encontrarás la ropa perfecta para ti.</p>
+        </div>
+        
+      </div>
+      <p style="font-size: 25px; font-family: 'Times New Roman', Times, serif; color: rgb(95, 9, 95);">Descubre más ideas</p>
+      <div style="padding-bottom: 80px;align-items: center; justify-content: center; text-align: center; padding-left: 30%; padding-right: 30%;">
+        <script async src="https://cse.google.com/cse.js?cx=06722736a03c847b7"></script>
+        <div class="gcse-search"></div>
+      </div>
+      
+      
+    </div>
+    
+    <div id="pantProductos" class="pantalla" style="text-align: center; width: 100%;">
+      <div class="productos">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="apariencia.css"></script>
+        <link rel="stylesheet" media="all" href="apariencia.css" />
+
+        <div class="productos-row" id="pantProductos"></div>
+
+        <script>
+          $(document).ready(function(){
+            $.ajax({
+              type: "GET",
+              url: "products.xml",
+              dataType: "xml",
+              success: function(xml){
+                var productos = "";
+                var i = 0;
+                $(xml).find('producto').each(function(){
+                  if (i % 4 === 0) {
+                    productos += '<div class="productos-row">';
+                  }
+                  var nombre = $(this).find('nombre').text();
+                  var precio = $(this).find('precio').text();
+                  var imagen = $(this).find('imagen').text();
+                  var id = $(this).find('id').text(); // Obtener el ID del producto
+                  productos += '<article>';
+                  productos += '<a href="producto.html?id=' + id + '"><img src="' + imagen + '" alt="' + nombre + '" style="width: 300px; height: 300px;"></a>';
+                  productos += '<h3>' + nombre + '</h3>';
+                  productos += '<p>' + precio + '</p>';
+                  productos += '</article>';
+                  if (i % 4 === 3) {
+                    productos += '</div>';
+                  }
+                  i++;
+                });
+                if (i % 4 !== 0) {
+                  productos += '</div>';
+                }
+                $("#pantProductos").html(productos);
+              }
+            });
+          });
+        </script>        
+
+      </div>
+    </div>
+
+    <div id="pantRopa" class="pantalla" style="text-align: center; align-items: center; width: 100%;">
+      <div class="productos">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="apariencia.js"></script>
+        <link rel="stylesheet" media="all" href="apariencia.css" />
+
+        <div class="productos-row" id="pantRopa"></div>
+
+        <script>
+          $(document).ready(function(){
+            $.ajax({
+              type: "GET",
+              url: "products.xml",
+              dataType: "xml",
+              success: function(xml){
+                var productos = "";
+                var i = 0;
+                $(xml).find('producto').each(function(){
+                  if (i % 4 === 0) {
+                    productos += '<div class="productos-row">';
+                  }
+                    var nombre = $(this).find('nombre').text();
+                    var precio = $(this).find('precio').text();
+                    var imagen = $(this).find('imagen').text();
+                    var id = $(this).find('id').text(); // Obtener el ID del producto
+                    if($(this).find('tipo').text() == "ropa"){
+                      productos += '<article>';
+                      productos += '<a href="producto.html?id=' + id + '"><img src="' + imagen + '" alt="' + nombre + '" style="width: 300px; height: 300px; padding-right: 30px; padding-left: 40px;"></a>';
+                      productos += '<h3>' + nombre + '</h3>';
+                      productos += '<p>' + precio + '</p>';
+                      productos += '</article>';
+                      if (i % 4 === 3) {
+                        productos += '</div>';
+                      }
+                      i++;
+                    }
+                    
+                });
+                if (i % 4 !== 0) {
+                  productos += '</div>';
+                }
+                $("#pantRopa").html(productos);
+              }
+            });
+          });
+        </script>        
+
+      </div>
+    </div>
+
+    <div id="pantBolsos" class="pantalla" style="text-align: center; align-items: center; width: 100%;">
+      <div class="productos">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="apariencia.js"></script>
+        <link rel="stylesheet" media="all" href="apariencia.css" />
+
+        <div class="productos-row" id="pantBolsos"></div>
+
+        <script>
+          $(document).ready(function(){
+            $.ajax({
+              type: "GET",
+              url: "products.xml",
+              dataType: "xml",
+              success: function(xml){
+                var productos = "";
+                var i = 0;
+                $(xml).find('producto').each(function(){
+                  if (i % 4 === 0) {
+                    productos += '<div class="productos-row">';
+                  }
+                    var nombre = $(this).find('nombre').text();
+                    var precio = $(this).find('precio').text();
+                    var imagen = $(this).find('imagen').text();
+                    var id = $(this).find('id').text(); // Obtener el ID del producto
+                    if($(this).find('tipo').text() == "bolso"){
+                      productos += '<article>';
+                      productos += '<a href="producto.html?id=' + id + '"><img src="' + imagen + '" alt="' + nombre + '" style="width: 300px; height: 300px; padding-right: 30px; padding-left: 40px;"></a>';
+                      productos += '<h3>' + nombre + '</h3>';
+                      productos += '<p>' + precio + '</p>';
+                      productos += '</article>';
+                      if (i % 4 === 3) {
+                        productos += '</div>';
+                      }
+                      i++;
+                    }
+                    
+                });
+                if (i % 4 !== 0) {
+                  productos += '</div>';
+                }
+                $("#pantBolsos").html(productos);
+              }
+            });
+          });
+        </script>        
+
+      </div>
+    </div>
+
+    </div>
+
+    <div id="pantZapatos" class="pantalla" style="text-align: center; align-items: center; width: 100%;">
+        <div class="productos">
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script src="apariencia.js"></script>
+          <link rel="stylesheet" media="all" href="apariencia.css" />
+
+          <div class="productos-row" id="pantZapatos"></div>
+
+          <script>
+            $(document).ready(function(){
+              $.ajax({
+                type: "GET",
+                url: "products.xml",
+                dataType: "xml",
+                success: function(xml){
+                  var productos = "";
+                  var i = 0;
+                  $(xml).find('producto').each(function(){
+                    if (i % 4 === 0) {
+                      productos += '<div class="productos-row">';
+                    }
+                      var nombre = $(this).find('nombre').text();
+                      var precio = $(this).find('precio').text();
+                      var imagen = $(this).find('imagen').text();
+                      var id = $(this).find('id').text(); // Obtener el ID del producto
+                      if($(this).find('tipo').text() == "zapatos"){
+                        productos += '<article>';
+                        productos += '<a href="producto.html?id=' + id + '"><img src="' + imagen + '" alt="' + nombre + '" style="width: 300px; height: 300px; padding-right: 30px; padding-left: 40px;"></a>';
+                        productos += '<h3>' + nombre + '</h3>';
+                        productos += '<p>' + precio + '</p>';
+                        productos += '</article>';
+                        if (i % 4 === 3) {
+                          productos += '</div>';
+                        }
+                        i++;
+                      }
+                      
+                  });
+                  if (i % 4 !== 0) {
+                    productos += '</div>';
+                  }
+                  $("#pantZapatos").html(productos);
+                }
+              });
+            });
+          </script>
+        </div>
+    </div>
+
+    <div id="pantBisuteria" class="pantalla" style="text-align: center; align-items: center; width: 100%;">
+        <div class="productos">
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script src="apariencia.js"></script>
+          <link rel="stylesheet" media="all" href="apariencia.css" />
+
+          <div class="productos-row" id="pantBisuteria"></div>
+
+          <script>
+            $(document).ready(function(){
+              $.ajax({
+                type: "GET",
+                url: "products.xml",
+                dataType: "xml",
+                success: function(xml){
+                  var productos = "";
+                  var i = 0;
+                  $(xml).find('producto').each(function(){
+                    if (i % 4 === 0) {
+                      productos += '<div class="productos-row">';
+                    }
+                      var nombre = $(this).find('nombre').text();
+                      var precio = $(this).find('precio').text();
+                      var imagen = $(this).find('imagen').text();
+                      var id = $(this).find('id').text(); // Obtener el ID del producto
+                      if($(this).find('tipo').text() == "bisuteria"){
+                        productos += '<article>';
+                        productos += '<a href="producto.html?id=' + id + '"><img src="' + imagen + '" alt="' + nombre + '" style="width: 300px; height: 300px; padding-right: 30px; padding-left: 40px;"></a>';
+                        productos += '<h3>' + nombre + '</h3>';
+                        productos += '<p>' + precio + '</p>';
+                        productos += '</article>';
+                        if (i % 4 === 3) {
+                          productos += '</div>';
+                        }
+                        i++;
+                      }
+                      
+                  });
+                  if (i % 4 !== 0) {
+                    productos += '</div>';
+                  }
+                  $("#pantBisuteria").html(productos);
+                }
+              });
+            });
+          </script>
+        </div>
+    </div>
+
+    <div id="pantBusqueda" class="pantalla" style="text-align: center; width: 100%;">
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="apariencia.js"></script>
+      <link rel="stylesheet" media="all" href="apariencia.css" />
+
+      <div class="productos-row" id="pantBusqueda"></div>
+      <script>
+        $(document).ready(function(){
+          $("form").submit(function(event){
+            event.preventDefault(); // Evitar que el formulario se envíe automáticamente
+            var busqueda = $("#busqueda").val(); // Obtener el valor de la entrada de texto
+            $("#pantBusqueda").empty();
+            $.ajax({
+              type: "GET",
+              url: "products.xml",
+              dataType: "xml",
+              success: function(xml){
+                var productos = "";
+                var i = 0;
+                $(xml).find('producto').each(function(){
+                  if (i % 4 === 0) {
+                    productos += '<div class="productos-row">';
+                  }
+                  var nombre = $(this).find('nombre').text();
+                  var precio = $(this).find('precio').text();
+                  var imagen = $(this).find('imagen').text();
+                  var id = $(this).find('id').text(); // Obtener el ID del producto
+                  if($(this).find('nombre').text().toLowerCase() == busqueda.toLowerCase() || $(this).find('tipo').text().toLowerCase() == busqueda.toLowerCase() || $(this).find('descripcion').text().toLowerCase().includes(busqueda.toLowerCase())){
+                    productos += '<article>';
+                    productos += '<a href="producto.html?id=' + id + '"><img src="' + imagen + '" alt="' + nombre + '" style="width: 300px; height: 300px; padding-right: 30px; padding-left: 40px;"></a>';
+                    productos += '<h3">' + nombre + '</h3>';
+                    productos += '<p>' + precio + '</p>';
+                    productos += '</article>';
+                    if (i % 4 === 3) {
+                      productos += '</div>';
+                    }
+                    i++;
+                  }
+                });
+                if (i % 4 !== 0) {
+                  productos += '</div>';
+                }
+                $("#pantBusqueda").append(productos);
+              }
+            });
+          });
+        });
+      </script>  
+    </div>
+  </div>
+    <script type="text/javascript" src="funcionalidad.js"></script>
+</body>
+</html>

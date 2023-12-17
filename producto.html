@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Detalles del producto</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="funcionalidad.js"></script>
+    <link rel="stylesheet" media="all" href="aparienciaProducto.css" />
+    </head>
+    <body>
+        <div id="producto">
+            <img id="imagen" src="" alt="" />
+            <h1 id="nombre"></h1>
+            <p id="precio"></p>
+            <p id="descripcion"></p>
+        
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script>
+                $(document).ready(function(){
+
+                // Obtener los parámetros de la URL actual
+                var urlParams = new URLSearchParams(window.location.search);
+
+                // Obtener el valor del parámetro "id"
+                var id = urlParams.get('id');
+
+                // Utilizar el valor del parámetro "id" en tu código
+                console.log(id);
+                
+                $.ajax({
+                    type: "GET",
+                    url: "products.xml",
+                    dataType: "xml",
+                    success: function(xml){
+                    var producto = "";
+                    $(xml).find('producto').each(function(){
+                        var nombre = $(this).find('nombre').text();
+                        var precio = $(this).find('precio').text();
+                        var imagen = $(this).find('imagen').text();
+                        var descripcion = $(this).find('descripcion').text();
+                        if($(this).find('id').text() == id){
+                            producto += '<article>';
+                            producto += '<div style="float: left; margin-right: 30px;">';
+                            producto += '<img src="' + imagen + '"style="width: 400px; height: 500px;">';
+                            producto += '</div>';
+                            producto += '<div style="float: left;">';
+                            producto += '<h3 style="font-size: 30px; font-family: Arial;">' + nombre + '</h3>';
+                            producto += '<p style="font-size: 20px; font-family: Arial;">' + precio + '</p>';
+                            producto += '<p style="font-size: 20px; font-family: Arial; width: 550px; height:300px;">' + descripcion + '</p>';
+                            producto += '</div>';
+                            producto += '</article>';
+                        }
+                    });
+                    $("#producto").html(producto);
+                    }
+                });
+                });
+            </script>
+        </div>
+        <script type="text/javascript" src="funcionalidad.js"></script>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 80px;
+  }
+  
+  /* Estilos para la página del producto */
+  #producto {
+    max-width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: #d7c2e0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  #producto img {
+    max-width: 100%;
+  }
+  
+  #producto h1 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  #producto p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Estilos para la lista de productos */
+  #pantProductos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  #pantProductos article {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  #pantProductos article img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #pantProductos article h3 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  #pantProductos article p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  
